@@ -27,7 +27,7 @@ java {
 
 application {
     // Define the main class for the application.
-    mainClass = 'org.example.App'
+    mainClass = 'dev.project516.JavaAppTemplate.Main'
 }
 
 compileJava.dependsOn spotlessApply
@@ -44,7 +44,11 @@ spotless {
 jar {
     manifest {
         attributes(
-            'Main-Class': 'org.example.App'
+            'Main-Class': 'dev.project516.JavaAppTemplate.Main'
         )
     }
+}
+
+run {
+    standardInput = System.in
 }
