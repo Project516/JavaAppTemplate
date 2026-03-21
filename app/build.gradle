@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 project516 <project516@project516.dev>
+//
+// SPDX-License-Identifier: MIT
+
 plugins {
     // Apply the application plugin to add support for building a CLI application in Java.
     id 'application'
