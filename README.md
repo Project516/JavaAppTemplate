@@ -11,6 +11,9 @@ SPDX-License-Identifier: MIT
 **Requirements**
 
 - **Java JDK**: Java 8 or newer installed and `JAVA_HOME` configured.
+  - If your are on a Unix system (MacOS/Linux), [SDKMAN](https://sdkman.io) is a great tool for managing JDKs.
+  - Also perfer the latest LTS JDK (currently 25) as it has newer features and fixes.
+    - Java 8 support is kept, because it is hard to find a decive without support for it. 
 
 **Quick start — Terminal**
 
@@ -65,6 +68,7 @@ java -jar build/libs/JavaAppTemplate-all.jar
 **Troubleshooting**
 
 - If Gradle complains about Java version, ensure `JAVA_HOME` points to a supported JDK and that `java -version` shows the same.
+  - If you are using SDKMAN run `sdk current java`.
 - On Windows, prefer PowerShell or Git Bash for the provided scripts; ensure `gradlew.bat` is executable.
 - If you get missing dependency errors, run `./gradlew --refresh-dependencies`.
 
