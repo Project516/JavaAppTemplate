@@ -8,10 +8,10 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-public class MainTest {
+public class GreetTest {
     @Test
     public void testGreetsUser() {
-        Main classUnderTest = new Main();
+        Greet classUnderTest = new Greet();
         assertNotNull("Should greet the user", classUnderTest.greetUser());
     }
 }
