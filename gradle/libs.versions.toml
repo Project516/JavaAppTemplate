@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: MIT
 
 [versions]
-guava = "33.5.0-jre"
+guava = "33.6.0-jre"
 junit = "4.13.2"
 
 [libraries]
