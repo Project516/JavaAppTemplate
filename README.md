@@ -1,9 +1,3 @@
-<!--
-SPDX-FileCopyrightText: 2026 project516 <project516@project516.dev>
-
-SPDX-License-Identifier: MIT
--->
-
 # Java App Template
 
 ## Setup
@@ -13,7 +7,7 @@ SPDX-License-Identifier: MIT
 - **Java JDK**: Java 8 or newer installed and `JAVA_HOME` configured.
   - If your are on a Unix system (MacOS/Linux), [SDKMAN](https://sdkman.io) is a great tool for managing JDKs.
   - Also perfer the latest LTS JDK (currently 25) as it has newer features and fixes.
-    - Java 8 support is kept, because it is hard to find a decive without support for it. 
+    - Java 8 support is kept, because it is hard to find an unsupported device. 
 
 **Quick start — Terminal**
 
@@ -71,7 +65,3 @@ java -jar build/libs/JavaAppTemplate-all.jar
   - If you are using SDKMAN run `sdk current java`.
 - On Windows, prefer PowerShell or Git Bash for the provided scripts; ensure `gradlew.bat` is executable.
 - If you get missing dependency errors, run `./gradlew --refresh-dependencies`.
-
-**Files**
-
-See the main entry point at `src/main/java/dev/project516/JavaAppTemplate/Main.java`.
