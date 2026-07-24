@@ -5,11 +5,11 @@
 **Requirements**
 
 - **Java JDK**: Java 8 or newer installed and `JAVA_HOME` configured.
-  - If your are on a Unix system (MacOS/Linux), [SDKMAN](https://sdkman.io) is a great tool for managing JDKs.
-  - Also perfer the latest LTS JDK (currently 25) as it has newer features and fixes.
-    - Java 8 support is kept, because it is hard to find an unsupported device. 
+  - If you are on a Unix system (MacOS/Linux), [SDKMAN](https://sdkman.io) is a great tool for managing JDKs.
+  - Also prefer the latest LTS JDK (currently 25) as it has newer features and fixes.
+    - Java 8 support is kept, because it is hard to find an unsupported device.
 
-**Quick start — Terminal**
+**Quick start - Terminal**
 
 Linux / macOS (bash / zsh):
 
@@ -40,8 +40,8 @@ Notes:
 - To run the produced JAR directly after building:
 
 ```bash
-# replace with the actual jar name in build/libs
-java -jar build/libs/JavaAppTemplate-all.jar
+# the Shadow plugin produces the fat jar from the 'app' subproject
+java -jar app/build/libs/app-all.jar
 ```
 
 **Run tests**
