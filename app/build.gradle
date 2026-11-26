@@ -25,6 +25,12 @@ java {
     }
 }
 
+javadoc {
+    javadocTool = javaToolchains.javadocToolFor {
+        languageVersion = JavaLanguageVersion.of(25)
+    }
+}
+
 application {
     // Define the main class for the application.
     mainClass = 'dev.project516.JavaAppTemplate.Main'
